@@ -1,0 +1,32 @@
+<!--
+O elemento <audio> já possui os controles de play, pause e volume, você apenas
+deve inserir o texto entre as tags <audio>... </audio>. A tag <audio> permite algumas
+extensões de áudio como exibido na tabela a seguir:
+-->
+
+<audio src=" Acesso ao aconteudo"> Título do audio </audio>
+
+<!--
+FORMATO DE ÁUDIO
+
+    MPR : audio/mpeg
+    OGG : audio/ogg
+    WAV : audio/wav
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <audio controls>
+        <source src="audio/Acesso ao aconteudo.mp3" type="audio/mpeg">
+        <source src="audio/Acesso ao aconteudo.ogg" type="audio/ogg">
+        <source src="audio/Acesso ao aconteudo.wav" type="audio/wav">
+    </audio>     
+</body>
+</html>

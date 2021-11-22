@@ -1,0 +1,32 @@
+<!--
+O elemento <video> também possui os controles de play, pause e volume. Com ele também
+podemos definir a altura e a largura que serão reservadas para o elemento, esses atributos são
+importantes para o browser reservar um espaço enquanto está sendo carregado. Se a altura e a
+largura não forem passadas, no momento do carregamento da página os outros elementos serão
+trocados de lugar.:
+-->
+
+<!--
+FORMATO DE VÍDEO
+
+    MP4  : video/mp4
+    WebM : video/webm
+    WOgg : video/ogg
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video width="320" height="240" controls>
+        <source src="video/video.mp4" type="video/mp4">
+        <source src="video/video.webm" type="video/webm">
+        <source src="video/video.ogg" type="video/ogg">
+    </video>   
+</body>
+</html>
